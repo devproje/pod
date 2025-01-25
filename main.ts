@@ -14,4 +14,5 @@ app.use(express.static("public"));
 
 app.use("/", index);
 
+console.log("server port bind at http://0.0.0.0:3000");
 app.listen(3000);
